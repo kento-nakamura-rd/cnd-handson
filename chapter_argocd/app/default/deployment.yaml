@@ -21,7 +21,7 @@ spec:
         app: handson
     spec:
       containers:
-        - image: rakuskentonakamura/cnd-handson:blue-app
+      - image: rakuskentonakamura/cnd-handson:blue-app
         imagePullPolicy: IfNotPresent
         name: handson
         ports:
